@@ -7,5 +7,9 @@ edition = "2021"
 
 [dependencies]
 subspace_farmer = {  package="subspace-farmer", git = "https://github.com/subspace/subspace", branch="main"  }
+subspace-farmer-components = {  package="subspace-farmer-components", git = "https://github.com/subspace/subspace", branch="main"  }
+subspace-core-primitives = {  package="subspace-core-primitives", git = "https://github.com/subspace/subspace", branch="main"  }
 clap = { version = "4.3.21", features = ["derive","cargo"] }
 tokio = { version = "1.34.0", features = ["macros", "parking_lot", "rt-multi-thread", "signal"] }
+
+parity-scale-codec = "3.6.5"

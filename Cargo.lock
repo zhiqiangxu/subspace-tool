@@ -4431,7 +4431,10 @@ name = "subspace-tool"
 version = "0.1.0"
 dependencies = [
  "clap",
+ "parity-scale-codec",
+ "subspace-core-primitives",
  "subspace-farmer",
+ "subspace-farmer-components",
  "tokio",
 ]
 
